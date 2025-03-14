@@ -14,7 +14,7 @@
     latest_models_invocations as (
       select distinct invocation_id
       from ordered_run_results
-      where row_number = 1
+      --where row_number = 1
     )
 
     select
